@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'testcommand' target in the 'testcommand' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
