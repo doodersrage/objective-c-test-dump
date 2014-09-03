@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1826AD12-9F0A-400F-9817-9AD89B38E762</string>
+	<key>IDESourceControlProjectName</key>
+	<string>program 3.4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>61B237F7-D955-4A5D-8D56-E2443DD99796</key>
+		<string>https://github.com/doodersrage/objective-c-test-dump.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>program 3.4/program 3.4.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>61B237F7-D955-4A5D-8D56-E2443DD99796</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/doodersrage/objective-c-test-dump.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>61B237F7-D955-4A5D-8D56-E2443DD99796</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>61B237F7-D955-4A5D-8D56-E2443DD99796</string>
+			<key>IDESourceControlWCCName</key>
+			<string>objective-c-test-dump</string>
+		</dict>
+	</array>
+</dict>
+</plist>
