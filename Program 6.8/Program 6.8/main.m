@@ -67,7 +67,7 @@ int main(int argc, const char * argv[])
         Calculator *deskCalc = [[Calculator alloc] init];
         
         NSLog(@"Type in your expression.");
-        scanf("%lf %c %lf", &value1, &operator, value2);
+        scanf("%lf %c %lf", &value1, &operator, &value2);
         
         NSLog(@"%lf",value2);
         
