@@ -16,6 +16,9 @@ int main(int argc, const char * argv[])
         
         Fraction *myFraction = [[Fraction alloc] init];
         
+        [myFraction setTo:100 over:200];
+        [myFraction print];
+        
         // set fraction to 1/3
         
         [myFraction setNumerator: 1];
