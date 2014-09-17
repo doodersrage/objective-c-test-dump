@@ -31,4 +31,14 @@
     denominator = d;
 }
 
+// add fraction to the reciever
+-(void) add: (Fraction *) f
+{
+    // to add two fractions:
+    // a/b + c/d = ((a*d) + (b*c)) / (b*d)
+    
+    numerator = numerator * f.denominator + denominator * f.numerator;
+    denominator = denominator * f.denominator;
+}
+
 @end

@@ -14,21 +14,21 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        Fraction *myFraction = [[Fraction alloc] init];
+        Fraction *aFraction = [[Fraction alloc] init];
+        Fraction *bFraction = [[Fraction alloc] init];
         
-        [myFraction setTo:100 over:200];
-        [myFraction print];
+        [aFraction setTo:1 over:4];
+        [bFraction setTo:1 over:2];
         
-        // set fraction to 1/3
+        // print results
         
-        [myFraction setNumerator: 1];
-        [myFraction setDenominator: 3];
+        [aFraction print];
+        NSLog(@"+");
+        [bFraction print];
+        NSLog(@"=");
         
-        // display the fraction
-        
-        NSLog(@"The value of myFraction is:");
-        [myFraction print];
-        
+        [aFraction add: bFraction];
+        [aFraction print];
     }
     return 0;
 }
