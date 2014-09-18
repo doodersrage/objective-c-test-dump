@@ -11,6 +11,8 @@
 		D428DC2919CB245000F027FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D428DC2819CB245000F027FF /* main.m */; };
 		D428DC2D19CB245000F027FF /* Program_8_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D428DC2C19CB245000F027FF /* Program_8_2.1 */; };
 		D428DC3519CB246B00F027FF /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D428DC3419CB246B00F027FF /* Rectangle.m */; };
+		D428DC3819CB2D0B00F027FF /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = D428DC3719CB2D0B00F027FF /* Square.m */; };
+		D428DC3B19CB30B500F027FF /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D428DC3A19CB30B500F027FF /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		D428DC2C19CB245000F027FF /* Program_8_2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Program_8_2.1; sourceTree = "<group>"; };
 		D428DC3319CB246B00F027FF /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = ../Rectangle.h; sourceTree = "<group>"; };
 		D428DC3419CB246B00F027FF /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rectangle.m; path = ../Rectangle.m; sourceTree = "<group>"; };
+		D428DC3619CB2D0B00F027FF /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		D428DC3719CB2D0B00F027FF /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		D428DC3919CB30B500F027FF /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		D428DC3A19CB30B500F027FF /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				D428DC2819CB245000F027FF /* main.m */,
+				D428DC3619CB2D0B00F027FF /* Square.h */,
+				D428DC3719CB2D0B00F027FF /* Square.m */,
 				D428DC3319CB246B00F027FF /* Rectangle.h */,
 				D428DC3419CB246B00F027FF /* Rectangle.m */,
+				D428DC3919CB30B500F027FF /* XYPoint.h */,
+				D428DC3A19CB30B500F027FF /* XYPoint.m */,
 				D428DC2C19CB245000F027FF /* Program_8_2.1 */,
 				D428DC2A19CB245000F027FF /* Supporting Files */,
 			);
@@ -144,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D428DC3819CB2D0B00F027FF /* Square.m in Sources */,
 				D428DC2919CB245000F027FF /* main.m in Sources */,
 				D428DC3519CB246B00F027FF /* Rectangle.m in Sources */,
+				D428DC3B19CB30B500F027FF /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
