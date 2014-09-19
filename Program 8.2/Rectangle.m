@@ -29,7 +29,7 @@
     return origin;
 }
 
--(void) setWidth: (int) w andHeight: (int) h
+-(void) setWidth: (float) w andHeight: (float) h
 {
     width = w;
     height = h;
@@ -43,5 +43,12 @@
 -(int) perimeter
 {
     return (width + height) * 2;
+}
+-(XYPoint *) translate: (XYPoint *) pt
+{
+    pt.x += 10;
+    pt.y += 10;
+    
+    return pt;
 }
 @end

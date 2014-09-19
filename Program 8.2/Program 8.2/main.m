@@ -23,6 +23,7 @@ int main(int argc, const char * argv[])
         [myPoint setX: 100 andY:200];
         
         [myRect setWidth:5 andHeight: 8];
+        [myRect translate:myPoint];
         myRect.origin = myPoint;
         
         NSLog(@"Rectangle: w = %i, h = %i", myRect.width, myRect.height);
@@ -37,7 +38,7 @@ int main(int argc, const char * argv[])
         [mySquare setSide:5];
         
         NSLog(@"Square s = %i", [mySquare side]);
-        NSLog(@"Area = %i, Perimete = %i", [mySquare area], [mySquare perimeter]);
+        NSLog(@"Area = %i, Perimeter = %i", [mySquare area], [mySquare perimeter]);
         
     }
     return 0;

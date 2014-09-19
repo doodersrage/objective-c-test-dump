@@ -7,15 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GraphicObject.h"
 #import "XYPoint.h"
 
-@interface Rectangle : NSObject
+@interface Rectangle : GraphicObject
 
 @property int width, height;
 
 -(XYPoint *) origin;
 -(void) setOrigin: (XYPoint *) pt;
--(void) setWidth: (int) w andHeight: (int) h;
+-(void) setWidth: (float) w andHeight: (float) h;
 -(int) area;
 -(int) perimeter;
+-(XYPoint *) translate: (XYPoint *) pt;
 @end
