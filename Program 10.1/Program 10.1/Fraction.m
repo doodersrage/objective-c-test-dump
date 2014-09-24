@@ -8,6 +8,8 @@
 
 #import "Fraction.h"
 
+static int gCounter;
+
 @implementation Fraction
 
 @synthesize numerator, denominator, real, imaginary;
@@ -15,6 +17,19 @@
 -(id) init
 {
     return [self initWith:0 over:0];
+}
+
++(Fraction *) allocF{
+    extern int gCounter;
+    ++gCounter;
+    
+    return [Fraction alloc];
+}
+
++(int) count{
+    extern int gCounter;
+    
+    return gCounter;
 }
 
 -(id) initWith: (int) n over: (int) d{

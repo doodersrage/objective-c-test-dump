@@ -13,6 +13,8 @@
 @property int numerator, denominator, real, imaginary;
 
 -(id) init;
++(Fraction *) allocF;
++(int) count;
 -(void) print;
 -(id) initWith: (int) n over: (int) d;
 -(void) setTo: (int) n over: (int) d;
