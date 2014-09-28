@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D40C426419D7816A006808FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C426319D7816A006808FF /* main.m */; };
 		D40C426C19D8B24D006808FF /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C426B19D8B24D006808FF /* BNRItem.m */; };
+		D40C426F19D8CEF9006808FF /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C426E19D8CEF9006808FF /* BNRContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D40C426319D7816A006808FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D40C426A19D8B24C006808FF /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		D40C426B19D8B24D006808FF /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		D40C426D19D8CEF9006808FF /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		D40C426E19D8CEF9006808FF /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				D40C426319D7816A006808FF /* main.m */,
 				D40C426A19D8B24C006808FF /* BNRItem.h */,
+				D40C426D19D8CEF9006808FF /* BNRContainer.h */,
+				D40C426E19D8CEF9006808FF /* BNRContainer.m */,
 				D40C426B19D8B24D006808FF /* BNRItem.m */,
 			);
 			path = RandomItems;
@@ -125,6 +130,7 @@
 			files = (
 				D40C426419D7816A006808FF /* main.m in Sources */,
 				D40C426C19D8B24D006808FF /* BNRItem.m in Sources */,
+				D40C426F19D8CEF9006808FF /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 				D40C426919D7816A006808FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
