@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40DD53F19DB0CEC00FB6401 /* New SCTP FULL logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = D40DD53E19DB0CEC00FB6401 /* New SCTP FULL logo2.png */; };
 		D4B100AA19DA43FE00F862F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B100A919DA43FE00F862F3 /* main.m */; };
 		D4B100AD19DA43FE00F862F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B100AC19DA43FE00F862F3 /* AppDelegate.m */; };
 		D4B100B519DA43FE00F862F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B100B419DA43FE00F862F3 /* Images.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D40DD53E19DB0CEC00FB6401 /* New SCTP FULL logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New SCTP FULL logo2.png"; sourceTree = "<group>"; };
 		D4B100A419DA43FE00F862F3 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B100A819DA43FE00F862F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B100A919DA43FE00F862F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				D4B100AB19DA43FE00F862F3 /* AppDelegate.h */,
+				D40DD53E19DB0CEC00FB6401 /* New SCTP FULL logo2.png */,
 				D4B100AC19DA43FE00F862F3 /* AppDelegate.m */,
 				D4B100CD19DA447400F862F3 /* BNRHypnosisView.h */,
 				D4B100CE19DA447400F862F3 /* BNRHypnosisView.m */,
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40DD53F19DB0CEC00FB6401 /* New SCTP FULL logo2.png in Resources */,
 				D4B100B819DA43FE00F862F3 /* LaunchScreen.xib in Resources */,
 				D4B100B519DA43FE00F862F3 /* Images.xcassets in Resources */,
 			);
@@ -400,6 +404,7 @@
 				D4B100C919DA43FE00F862F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4B100CA19DA43FE00F862F3 /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				D4B100CC19DA43FE00F862F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
