@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "BNRHypnosisViewController.h"
 #import "BNRReminderViewController.h"
+#import "BNRQuizViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,12 +21,17 @@
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    // load hypno view
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
     
+    // load reminder view
     BNRReminderViewController *rvc = [[BNRReminderViewController alloc] init];
     
+    // load quiz view
+    BNRQuizViewController *qvc = [[BNRQuizViewController alloc] init];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[hvc, rvc];
+    tabBarController.viewControllers = @[hvc, rvc, qvc];
     
     self.window.rootViewController = tabBarController;
     

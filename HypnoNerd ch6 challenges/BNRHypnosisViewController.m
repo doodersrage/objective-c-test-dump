@@ -11,6 +11,8 @@
 
 @interface BNRHypnosisViewController ()
 
+- (IBAction)changeColor:(id)sender;
+
 @end
 
 @implementation BNRHypnosisViewController
@@ -47,13 +49,31 @@
     return self;
 }
 
-- (void)loadView
+/*- (void)loadView
 {
     // Create a view
     BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] init];
     
     // Set it as *the* view of this view controller
     self.view = backgroundView;
+} */
+
+- (void)changeColor:(id)sender
+{
+    BNRHypnosisView *hypnosisView = (BNRHypnosisView *)self.view;
+    UISegmentedControl *s = (UISegmentedControl *)sender;
+    int index = [s selectedSegmentIndex];
+    
+    if (index == 0) {
+        hypnosisView.circleColor = [UIColor redColor];
+    }
+    else if (index == 1) {
+        hypnosisView.circleColor = [UIColor blueColor];
+    }
+    else if (index == 2) {
+        hypnosisView.circleColor = [UIColor greenColor];
+    }
+    
 }
 
 @end

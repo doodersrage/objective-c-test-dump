@@ -10,11 +10,21 @@
 
 @interface BNRHypnosisView ()
 
-@property (strong, nonatomic) UIColor *circleColor;
-
 @end
 
 @implementation BNRHypnosisView
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    
+    if (self) {
+        self.backgroundColor = [UIColor clearColor];
+        self.circleColor = [UIColor lightGrayColor];
+    }
+    
+    return self;
+}
 
 - (void)setCircleColor:(UIColor *)circleColor
 {
