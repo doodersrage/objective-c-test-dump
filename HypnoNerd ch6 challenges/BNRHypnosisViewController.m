@@ -9,12 +9,6 @@
 #import "BNRHypnosisViewController.h"
 #import "BNRHypnosisView.h"
 
-@interface BNRHypnosisViewController ()
-
-- (IBAction)changeColor:(id)sender;
-
-@end
-
 @implementation BNRHypnosisViewController
 
 - (void)viewDidLoad {
